@@ -19,7 +19,7 @@ class registerpage : AppCompatActivity() {
 
         button.setOnClickListener(){
             if(accept.isChecked) {
-                val intent = Intent(this, InPage::class.java)
+                val intent = Intent(this, Menu::class.java)
                 startActivity(intent)
             } else {
                 terms.setVisibility(TextView.VISIBLE);
